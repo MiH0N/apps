@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.modal-header .close {
+    padding: 0!important;
+    margin: 0!important;
+}
+/* for calculator*/
+.body-cal {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #97D9E1;
+}
+
+.frame-cal {
+    font-size: 24px;
+    background-color: white;
+    width: fit-content;
+    border-radius: 20px;
+    padding: 2%;
+    margin: 40px 20px 20px 20px;
+}
+
+.button-cal {
+    color: white;
+    border-radius: 10px;
+    width: 4rem;
+    height: 4rem;
+    border: none;
+    margin: 5px 5px;
+    box-shadow: 3px 3px 3px #cccccc;
+    font-size: 1rem;
+    background-color: #3F4557;
+}
+
+.button-cal:active {
+    color: #F484A2;
+}
+
+.button-cal:focus {
+    outline:0;
+}
+
+.button-cal:hover {
+    background: linear-gradient(145deg, #6E66F2, #F484A2);
+}
+.top-cal {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+
+.functionbox-cal {
+    display: inline-block;
+}
+
+.output-cal {
+    font-size: 20px;
+    padding: 5px 8px;
+    color: white;
+    border-radius: 8px;
+    width: fit-content;
+    min-width: 100%;
+    height: 26px;
+    display: block;
+    background-color: #F484A2;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    box-shadow: 1px 2px 2px #B7C0C4;
+    border:unset;
+}
+
+.buttonclear-cal {
+    margin-right: 10px;
+    margin-left: 0;
+    border-radius: 50px;
+}
+
+.operator-cal {
+    background-color: #6E66F2;
+}
+.output-cal:focus-visible,.output-cal:focus,.output-cal:active{
+    outline: none!important;
+}
+.output-cal:hover{
+    outline: none!important;
+}
+@media screen and (min-width: 1400px) {
+    /*.button-cal {*/
+    /*  !*width: 90px;*!*/
+    /*  !*height: 90px;*!*/
+    /*}*/
+
+    .output-cal {
+        width: 300px;
+        height: 60px;
+        margin-top: 20px;
+        font-size: 20px;
+        border:unset;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .button-cal {
+        width: 3rem;
+        height: 3rem;
+    }
+    .output-cal {
+        height: 50px;
+        width: 232px;
+
+    }
+}
+@media screen and (max-height: 625px){
+    .output-cal{
+        height: 65px;
+    }
+}
