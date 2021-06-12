@@ -10,7 +10,7 @@ function Header() {
             <div className="navbar navbar-dark navbar-expand bg-dark shadow-sm">
                 <div className="container d-flex justify-content-between">
                     <a href="#" className="navbar-brand d-flex align-items-center">
-                        <strong>Parking Shahed</strong>
+                        <strong>Project Shahed</strong>
                     </a>
                     <ul className="navbar-nav mr-auto">
                         {/*<li className="nav-item">*/}
@@ -22,7 +22,7 @@ function Header() {
                             <NavLink className="nav-link" exact to="/parking">Parking</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/timer">Timer</NavLink>
+                            <NavLink className="nav-link" to="/tower-hanoi">Tower of Hanoi</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link" to="/bracket">Bracket</NavLink>

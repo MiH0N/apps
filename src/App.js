@@ -6,6 +6,7 @@ import Parking from "./Routes/Parking";
 import {  BrowserRouter as Router, Switch, Route, Link} from  "react-router-dom"
 import TodoApp from "./Routes/Todo";
 import Bracket from "./Routes/Bracket";
+import TowerHanoi from "./Routes/TowerHanoi";
 
 
 function App() {
@@ -14,9 +15,8 @@ function App() {
             <Header />
             <Switch>
                 <Route path="/parking" component={Parking} />
-                <Route path="/todo" component={TodoApp} />
+                <Route path="/tower-hanoi" component={TowerHanoi} />
                 <Route path="/bracket" component={Bracket} />
-
             </Switch>
         </Router>
     );

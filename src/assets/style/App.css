@@ -41,3 +41,51 @@
     transform: rotate(360deg);
   }
 }
+
+.App-tail {
+  height: 20vmin;
+}
+.App-link {
+  color: #09d3ac;
+}
+
+.hanoi-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.hanoi-block-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30vw;
+  padding: 2vw;
+}
+.hanoi-block {
+  height: 2vh;
+  margin: 2px;
+  background-color: #0b3148;
+  border: solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+.hanoi-bottom {
+  height: 20px;
+  margin: 1vw;
+  background-color: #ded1c6;
+  border-width: 1px;
+  width: 25vw;
+}
+.hanoi-desc {
+  font-size: xx-large;
+}
+
+.sol-highlight {
+  background-color: lightblue;
+  font-weight: bold;
+}
+
+.sol-normal {
+
+}
