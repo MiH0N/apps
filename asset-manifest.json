@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/parking/static/css/main.6d5d9009.chunk.css",
+    "main.js": "/parking/static/js/main.2418d7c3.chunk.js",
+    "main.js.map": "/parking/static/js/main.2418d7c3.chunk.js.map",
+    "runtime-main.js": "/parking/static/js/runtime-main.7c842ec2.js",
+    "runtime-main.js.map": "/parking/static/js/runtime-main.7c842ec2.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/parking/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.0f7ed077.chunk.js": "/parking/static/js/2.0f7ed077.chunk.js",
+    "static/js/2.0f7ed077.chunk.js.map": "/parking/static/js/2.0f7ed077.chunk.js.map",
+    "static/js/3.0d6c45e7.chunk.js": "/parking/static/js/3.0d6c45e7.chunk.js",
+    "static/js/3.0d6c45e7.chunk.js.map": "/parking/static/js/3.0d6c45e7.chunk.js.map",
+    "index.html": "/parking/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/parking/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.6d5d9009.chunk.css.map": "/parking/static/css/main.6d5d9009.chunk.css.map",
+    "static/js/2.0f7ed077.chunk.js.LICENSE.txt": "/parking/static/js/2.0f7ed077.chunk.js.LICENSE.txt",
+    "static/media/car.4caafd8d.svg": "/parking/static/media/car.4caafd8d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7c842ec2.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.0f7ed077.chunk.js",
+    "static/css/main.6d5d9009.chunk.css",
+    "static/js/main.2418d7c3.chunk.js"
+  ]
+}
