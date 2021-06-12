@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/parking/static/css/main.6d5d9009.chunk.css",
-    "main.js": "/parking/static/js/main.2418d7c3.chunk.js",
-    "main.js.map": "/parking/static/js/main.2418d7c3.chunk.js.map",
+    "main.js": "/parking/static/js/main.0b2f6cb8.chunk.js",
+    "main.js.map": "/parking/static/js/main.0b2f6cb8.chunk.js.map",
     "runtime-main.js": "/parking/static/js/runtime-main.7c842ec2.js",
     "runtime-main.js.map": "/parking/static/js/runtime-main.7c842ec2.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/parking/static/css/2.4c97ca4f.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.0f7ed077.chunk.js",
     "static/css/main.6d5d9009.chunk.css",
-    "static/js/main.2418d7c3.chunk.js"
+    "static/js/main.0b2f6cb8.chunk.js"
   ]
 }
