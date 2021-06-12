@@ -10,8 +10,8 @@ function _solveHanoi(num, from, mid, to) {
     return ans;
 }
 
-function solveHanoi(num) {
-    return _solveHanoi(num, 1, 2, 3);
+function solveHanoi(num,from, mid , to) {
+    return _solveHanoi(num, from, mid , to);
 }
 
 export default solveHanoi;
