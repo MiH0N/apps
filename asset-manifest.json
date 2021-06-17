@@ -1,26 +1,30 @@
 {
   "files": {
-    "main.css": "/parking/static/css/main.6d5d9009.chunk.css",
-    "main.js": "/parking/static/js/main.0b2f6cb8.chunk.js",
-    "main.js.map": "/parking/static/js/main.0b2f6cb8.chunk.js.map",
-    "runtime-main.js": "/parking/static/js/runtime-main.7c842ec2.js",
-    "runtime-main.js.map": "/parking/static/js/runtime-main.7c842ec2.js.map",
-    "static/css/2.4c97ca4f.chunk.css": "/parking/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.0f7ed077.chunk.js": "/parking/static/js/2.0f7ed077.chunk.js",
-    "static/js/2.0f7ed077.chunk.js.map": "/parking/static/js/2.0f7ed077.chunk.js.map",
-    "static/js/3.0d6c45e7.chunk.js": "/parking/static/js/3.0d6c45e7.chunk.js",
-    "static/js/3.0d6c45e7.chunk.js.map": "/parking/static/js/3.0d6c45e7.chunk.js.map",
-    "index.html": "/parking/index.html",
-    "static/css/2.4c97ca4f.chunk.css.map": "/parking/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.6d5d9009.chunk.css.map": "/parking/static/css/main.6d5d9009.chunk.css.map",
-    "static/js/2.0f7ed077.chunk.js.LICENSE.txt": "/parking/static/js/2.0f7ed077.chunk.js.LICENSE.txt",
-    "static/media/car.4caafd8d.svg": "/parking/static/media/car.4caafd8d.svg"
+    "main.css": "/apps/static/css/main.1ab078a3.chunk.css",
+    "main.js": "/apps/static/js/main.860714d1.chunk.js",
+    "main.js.map": "/apps/static/js/main.860714d1.chunk.js.map",
+    "runtime-main.js": "/apps/static/js/runtime-main.7fe15749.js",
+    "runtime-main.js.map": "/apps/static/js/runtime-main.7fe15749.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/apps/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.f19d1fbe.chunk.js": "/apps/static/js/2.f19d1fbe.chunk.js",
+    "static/js/2.f19d1fbe.chunk.js.map": "/apps/static/js/2.f19d1fbe.chunk.js.map",
+    "static/js/3.17c45181.chunk.js": "/apps/static/js/3.17c45181.chunk.js",
+    "static/js/3.17c45181.chunk.js.map": "/apps/static/js/3.17c45181.chunk.js.map",
+    "index.html": "/apps/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/apps/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.1ab078a3.chunk.css.map": "/apps/static/css/main.1ab078a3.chunk.css.map",
+    "static/js/2.f19d1fbe.chunk.js.LICENSE.txt": "/apps/static/js/2.f19d1fbe.chunk.js.LICENSE.txt",
+    "static/media/bracket.0a0f9458.png": "/apps/static/media/bracket.0a0f9458.png",
+    "static/media/car.4caafd8d.svg": "/apps/static/media/car.4caafd8d.svg",
+    "static/media/hanoi.6336f319.png": "/apps/static/media/hanoi.6336f319.png",
+    "static/media/parking.ffef27ef.png": "/apps/static/media/parking.ffef27ef.png",
+    "static/media/prison.73059bc6.png": "/apps/static/media/prison.73059bc6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.7c842ec2.js",
+    "static/js/runtime-main.7fe15749.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.0f7ed077.chunk.js",
-    "static/css/main.6d5d9009.chunk.css",
-    "static/js/main.0b2f6cb8.chunk.js"
+    "static/js/2.f19d1fbe.chunk.js",
+    "static/css/main.1ab078a3.chunk.css",
+    "static/js/main.860714d1.chunk.js"
   ]
 }
