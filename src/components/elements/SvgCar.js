@@ -1,6 +1,6 @@
-import Car from "../assets/svgs/car.svg";
+import Car from "../../assets/svgs/car.svg";
 import React from "react";
-import useStyles from '../assets/js/useStyles';
+import useStyles from '../../assets/js/useStyles';
 
 
 function SvgCar(props) {

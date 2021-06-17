@@ -89,3 +89,91 @@
 .sol-normal {
 
 }
+
+
+/*s*/
+.cards-list-c {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background: antiquewhite;
+  height: 100vh;
+}
+.a-c{
+  text-decoration: none!important;
+  color: unset!important;
+  display: block;
+}
+
+.card-c {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgb(0 0 0 / 5%), -5px -5px 30px 7px rgb(0 0 0 / 5%);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card-c .card_image-c {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card-c .card_image-c img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card-c .card_title-c {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+}
+
+.card-c:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25),
+  -5px -5px 30px 15px rgba(0,0,0,0.22);
+}
+
+.title-white-c {
+  color: white;
+}
+
+.title-black-c {
+  color: black;
+}
+
+@media all and (max-width: 500px) {
+  .card-list-c {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
+
+
+/*
+.card {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  background-image: url('https://i.redd.it/b3esnz5ra34y.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  transition: 0.4s;
+}
+*/

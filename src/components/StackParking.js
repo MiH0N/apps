@@ -3,7 +3,7 @@ import Paper from '@material-ui/core/Paper';
 import Slide from '@material-ui/core/Slide';
 import Button from '@material-ui/core/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import SvgCar from "./SvgCar";
+import SvgCar from "./elements/SvgCar";
 import useStyles from '../assets/js/useStyles';
 import Modal from "react-bootstrap/Modal";
 import FormAddCar from "./Forms/FormAddCar";

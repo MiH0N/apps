@@ -2,7 +2,7 @@
   "name": "my-pro",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://MiH0N.github.io/parking",
+  "homepage": "http://MiH0N.github.io/apps/",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@material-ui/lab": "*",

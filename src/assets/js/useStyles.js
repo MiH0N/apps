@@ -19,6 +19,15 @@ export default makeStyles((theme) => ({
         width: 200,
         height: 150,
     },
+    svgStick: {
+        width: 80,
+        height: 80,
+    },
+    rowC: {
+        display: 'flex',
+        flexWrap: 'wrap',
+        minHeight : '200px'
+    },
     polygon: {
         fill: theme.palette.common.white,
         stroke: theme.palette.divider,
@@ -32,13 +41,20 @@ export default makeStyles((theme) => ({
         textAlign: 'center',
         color: 'white',
     },
-
+    containerStick : {
+        alignSelf: 'flex-end',
+        height: 'min-content',
+    },
     centered : {
         position: 'absolute',
         top: '50%',
         left: '50%',
         margin :'0',
         transform: 'translate(-50%, -50%)',
+    },
+    centeredStick :{
+        fontSize: 'medium',
+        textAlign: 'center',
     },
     '@global': {
         '*': {

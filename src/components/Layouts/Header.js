@@ -9,23 +9,21 @@ function Header() {
         <header>
             <div className="navbar navbar-dark navbar-expand bg-dark shadow-sm">
                 <div className="container d-flex justify-content-between">
-                    <a href="#" className="navbar-brand d-flex align-items-center">
+                    <a href="/apps" className="navbar-brand d-flex align-items-center">
                         <strong>Project Shahed</strong>
                     </a>
                     <ul className="navbar-nav mr-auto">
-                        {/*<li className="nav-item">*/}
-                        {/*    <Link className="nav-link" exact to="/" activeStyle={{*/}
-                        {/*        color : 'red'*/}
-                        {/*    }}>Home</Link>*/}
-                        {/*</li>*/}
                         <li className="nav-item">
-                            <NavLink className="nav-link" exact to="/parking">Parking</NavLink>
+                            <NavLink className="nav-link" exact to="/apps/parking">Parking</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/tower-hanoi">Tower of Hanoi</NavLink>
+                            <NavLink className="nav-link" to="/apps/tower-hanoi">Tower of Hanoi</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/bracket">Bracket</NavLink>
+                            <NavLink className="nav-link" to="/apps/bracket">Bracket</NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to="/apps/prison">Prison</NavLink>
                         </li>
                     </ul>
                 </div>

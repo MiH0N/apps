@@ -6,7 +6,7 @@ import Button from '@material-ui/core/Button';
 import { spacing } from '@material-ui/system';
 import Box from '@material-ui/core/Box';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import SvgCar from "./SvgCar";
+import SvgCar from "./elements/SvgCar";
 import useStyles from '../assets/js/useStyles';
 import Modal from "react-bootstrap/Modal";
 import FormAddCar from "./Forms/FormAddCar";
