@@ -18,7 +18,7 @@ function Home() {
         <>
             <div className="cards-list-c">
                 <div>
-                    <Link to={`${match.url}/parking`} className={"a-c ml-3"}>
+                    <Link to={`/apps/parking`} className={"a-c ml-3"}>
                         <div className="card-c 3">
                             <div className="card_image-c">
                                 <img src={parking}/>
@@ -30,7 +30,7 @@ function Home() {
                     </Link>
                 </div>
                 <div>
-                    <Link  to={`${match.url}/prison`}  className={"a-c ml-3"}>
+                    <Link  to={`/apps/prison`}  className={"a-c ml-3"}>
                         <div className="card-c 1">
                             <div className="card_image-c"><img src={prison}/></div>
                             <div className="card_title-c title-white-c">
@@ -41,7 +41,7 @@ function Home() {
                 </div>
 
                 <div>
-                    <Link to={`${match.url}/tower-hanoi`} className={"a-c ml-3"}>
+                    <Link to={`/apps/tower-hanoi`} className={"a-c ml-3"}>
                         <div className="card-c 4">
                             <div className="card_image-c">
                                 <img src={hanoi}/>
@@ -53,7 +53,7 @@ function Home() {
                     </Link>
                 </div>
                 <div>
-                    <Link to={`${match.url}/bracket`} className={"a-c ml-3"}>
+                    <Link to={`/apps/bracket`} className={"a-c ml-3"}>
                         <div className="card-c 2">
                             <div className="card_image-c">
                                 <img  src={bracket}/>

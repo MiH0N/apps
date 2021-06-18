@@ -26,7 +26,7 @@ export default function Bracket() {
     let checkError = (arr)=>{
         let ck = [];
         for (let i = 0; i < arr.length; i++){
-            ck.push(typeof (arr[i]) !== 'number')
+            ck.push(!(arr[i] >=0 && arr[i]<=9))
         }
         for (let i = 1; i < arr.length; i++){
             if(ck[i] * ck[i-1] ){
@@ -60,8 +60,21 @@ export default function Bracket() {
 
     }
     const changeInput = (e)=>{
+        let otp = output;
         if (e.target.name === 'clear') {
             setOutput("")
+        }
+        else if(e.target.name ==='.' && !otp.length){
+            setOutput('0' + e.target.name)
+        }
+        else if (!otp.length && !(e.target.name >=0 && e.target.name<=9)) {
+            setOutput("")
+        }
+        else if(otp === '0' && e.target.name === '0'){
+            setOutput("0")
+        }
+        else if (otp === '0' && (e.target.name >=1 && e.target.name<=9)){
+            setOutput(e.target.name)
         }
         else if(e.target.name === '0' && output.length>0){
             setOutput(output + e.target.name)
@@ -74,8 +87,8 @@ export default function Bracket() {
         }
     }
     const setParentheses = ()=>{
-        console.log(checkError(output))
-        if(checkError(output)){
+        if(!checkError(output)){
+            setError(false);
             let s1 = stepOne(output,'^','!');
             let s2 = stepOne(s1,'/','*');
             let s3 = stepOne(s2 , '+', '-');
